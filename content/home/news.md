@@ -2,14 +2,14 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 headless: true
-active: false
+active: true
 weight: 20
 
 title: Latest News
 subtitle:
 
 content:
-  count: 5
+  count: 3
   filters:
     author: ''
     category: ''
@@ -18,8 +18,8 @@ content:
     tag: ''
   offset: 0
   order: desc
-  page_type: post
+  page_type: news
 design:
-  view: 3
+  view: compact
   columns: '1'
 ---

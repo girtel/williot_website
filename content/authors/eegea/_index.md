@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Head
+title: Esteban Egea
 stud: Ph.D.
 # Is this the primary user of the site?
 superuser: false
@@ -15,7 +15,8 @@ role: Role <br> (Where)
 #  - name: Stanford University
 #    url: ''
 
-externalLink: "https://girtel.upct.es/~ppavon"
+externalLink: "#"
+openExternalLinkInNewTab: false
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -25,7 +26,7 @@ social:
   - icon: envelope
     icon_pack: fas
     name: 'Email'
-    link: 'mailto:example@example.es'
+    link: 'mailto:jose.santa@upct.es'
   - icon: phone
     icon_pack: fa
     name: 'Phone'
@@ -54,5 +55,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Head
+  - Research Group
 ---

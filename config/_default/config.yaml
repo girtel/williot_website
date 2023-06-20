@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: NAME OF THE PROJECT # Website name
-baseURL: 'https://name_of_the_project.upct.es/' # Website URL
+title: Wireless and Mobile Internet of Things (WILLIOT) # Website name
+baseURL: 'https://williot.girtel.es/' # Website URL
 canonifyURLs: false
 relativeURLs: false
 
@@ -14,7 +14,7 @@ relativeURLs: false
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: es
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
@@ -27,8 +27,6 @@ buildDrafts: false
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 
 ############################

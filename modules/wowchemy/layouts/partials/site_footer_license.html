@@ -1,5 +1,17 @@
 {{/* Display copyright license. */}}
 
+{{ $image := site.Params.footer.image}}
+<div class="text-center">
+  {{ range $image }}
+  {{ $has_logo := fileExists .}}
+  {{ $logo := "" }}
+  {{ if $has_logo }}
+  {{ $logo = (partial "functions/get_logo" (dict "constraint" "max_height" "size" 100)).Permalink }}
+        <img src="{{ $logo }}" style="display: inline-block;">
+  {{ end }}
+  {{ end }}
+</div>
+
 {{ $copyright_license := .Params.copyright.license | default site.Params.footer.copyright.license }}
 {{ $notice := .Params.copyright.notice | default site.Params.footer.copyright.notice }}
 

@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: 
   font: native
   font_size: L
 
@@ -32,7 +32,8 @@ marketing:
 header:
   navbar:
     enable: true
-    align: c
+    size: 70
+    align: r
     show_logo: true
     show_language: false
     show_day_night: true
@@ -42,8 +43,9 @@ header:
 # Site footer
 
 footer:
+  image: [assets/media/logo.png]
   copyright:
-    notice: '© {year} - Telecommunication Networks Engineering Group'
+    notice: '© {year} - All Rights Reserved'
     license:
       enable: false
       allow_derivatives: false

@@ -1,24 +1,22 @@
 ---
 # Display name
-title: Researcher 
-stud: Ph.D.
+title: Andrés Ruz-Nieto
+stud: Ms.C.
 # Is this the primary user of the site?
 superuser: false
 
-externalLink: "https://girtel.upct.es/~jsanta"
-
-weight: 3
+weight: 1
 
 # Role/position
-role: PhD. Senior Researcher <br> (Ramon y Cajal)
+role: Role <br> (Where)
 
 # Organizations/Affiliations
 #organizations:
 #  - name: Stanford University
 #    url: ''
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+externalLink: "#"
+openExternalLinkInNewTab: true
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -32,7 +30,7 @@ social:
   - icon: phone
     icon_pack: fa
     name: 'Phone'
-    link: 'tel:+34868071063'
+    link: 'tel:+34968325952'
   #- icon: twitter
   #  icon_pack: fab
   #  link: https://twitter.com/GeorgeCushen
@@ -57,5 +55,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Research Group
 ---

@@ -71,10 +71,12 @@
 {{ end }}
 
 {{ $columns := $st.Params.design.columns | default "2" }}
+{{ $news_cols := $st.Params.design.news_cols | default "2" }}
 
 <div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
 
   {{ with $st.Content }}{{ . }}{{ end }}
+
 
   {{ range $index, $item := $query }}
     {{ partial "functions/render_view" (dict "page" $st "item" . "view" ($st.Params.design.view | default "compact") "index" $index) }}

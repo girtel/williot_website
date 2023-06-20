@@ -16,11 +16,15 @@ content:
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
-    - Head
-    - Researchers
+    - Main Researcher
+    - Research Group
     - External Collaborators
 design:
   show_interests: false
-  show_role: true
-  show_social: true
+  show_role: false
+  show_social: false
+  show_image: false
+  show_link: false
 ---
+
+The project is developed within the Technical University of Cartagena, in the [Telecommunication Networks Engineering Group](https://girtel.upct.es)
