@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir ~/academic-cli
           cd ~/academic-cli
-          git clone https://github.com/aruznieto/hugo-academic-cli-girtel.git
+          git clone https://github.com/ARNTM/hugo-academic-cli-girtel.git
           cd hugo-academic-cli-girtel
           pip install -e .
       
@@ -50,7 +50,7 @@ jobs:
           academic import --bibtex publications/publications.bib
           
       - name: 🛠️ Build
-        run: hugo --minify
+        run: hugo --gc --minify --quiet -F
 
       - name: 🔑 Install SSH Key
         run: |
