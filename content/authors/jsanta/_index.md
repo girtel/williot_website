@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jose Santa Lozano
+title: José Santa Lozano
 stud: Ph.D.
 # Is this the primary user of the site?
 superuser: false
@@ -8,7 +8,7 @@ superuser: false
 weight: 1
 
 # Role/position
-role: Role <br> (Where)
+role: PhD. Senior Researcher <br> (University Head)
 
 # Organizations/Affiliations
 #organizations:

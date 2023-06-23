@@ -1,11 +1,11 @@
 ---
 # Display name
-title: Andrés Ruz-Nieto
-stud: M.SC.
+title: Emilio Ramos
+stud: M.Sc.
 # Is this the primary user of the site?
 superuser: false
 
-weight: 9
+weight: 11
 
 # Role/position
 role: PhD. Student <br> (Predoctoral Research Contract)
@@ -16,7 +16,7 @@ role: PhD. Student <br> (Predoctoral Research Contract)
 #    url: ''
 
 externalLink: "#"
-openExternalLinkInNewTab: true
+openExternalLinkInNewTab: false
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -26,7 +26,7 @@ social:
   - icon: envelope
     icon_pack: fas
     name: 'Email'
-    link: 'mailto:andres.ruz@upct.es'
+    link: 'mailto:emilio.ramos@upct.es'
   - icon: phone
     icon_pack: fa
     name: 'Phone'

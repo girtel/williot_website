@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Andrés Ruz-Nieto
-stud: M.SC.
+title: Fernando Pereñiguez García
+stud: Ph.D.
 # Is this the primary user of the site?
 superuser: false
 
-weight: 9
+weight: 6
 
 # Role/position
-role: PhD. Student <br> (Predoctoral Research Contract)
+role: Associate Professor at University Center of Defense at the Spanish Air Force Academy
 
 # Organizations/Affiliations
 #organizations:
@@ -16,7 +16,7 @@ role: PhD. Student <br> (Predoctoral Research Contract)
 #    url: ''
 
 externalLink: "#"
-openExternalLinkInNewTab: true
+openExternalLinkInNewTab: false
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -26,7 +26,7 @@ social:
   - icon: envelope
     icon_pack: fas
     name: 'Email'
-    link: 'mailto:andres.ruz@upct.es'
+    link: 'mailto:fernando.pereniguez@cud.upct.es'
   - icon: phone
     icon_pack: fa
     name: 'Phone'

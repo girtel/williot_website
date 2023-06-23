@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Esteban Egea
+title: Esteban Egea López
 stud: Ph.D.
 # Is this the primary user of the site?
 superuser: false
@@ -8,7 +8,7 @@ superuser: false
 weight: 1
 
 # Role/position
-role: Role <br> (Where)
+role: Associate Professor <br> (University Head)
 
 # Organizations/Affiliations
 #organizations:
@@ -26,7 +26,7 @@ social:
   - icon: envelope
     icon_pack: fas
     name: 'Email'
-    link: 'mailto:jose.santa@upct.es'
+    link: 'mailto:esteban.egea@upct.es'
   - icon: phone
     icon_pack: fa
     name: 'Phone'
