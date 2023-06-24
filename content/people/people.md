@@ -25,6 +25,7 @@ design:
   show_social: false
   show_image: false
   show_link: false
+  bootstrapcol: 4
 ---
 
 The project is developed within the Technical University of Cartagena, in the [Telecommunication Networks Engineering Group](https://girtel.upct.es)
