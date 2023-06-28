@@ -35,6 +35,6 @@ window.PlotlyConfig = {MathJaxConfig: 'local'};
 Object.keys(localStorage).forEach(function(key) {
   if (/^wc-announcement-/.test(key)) {
     document.documentElement.setAttribute('data-wc-announcement-status', 'dismissed');
-    console.debug('Hiding announcement...');
+    //console.debug('Hiding announcement...');
   }
 });

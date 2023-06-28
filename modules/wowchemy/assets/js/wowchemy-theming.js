@@ -23,18 +23,18 @@ function canChangeTheme() {
 // flashing between the default theme mode and the user's choice.
 function initThemeVariation() {
   if (!canChangeTheme()) {
-    console.debug('User theming disabled.');
+    //console.debug('User theming disabled.');
     return {
       isDarkTheme: window.wc.isSiteThemeDark,
       themeMode: window.wc.isSiteThemeDark ? 1 : 0,
     };
   }
 
-  console.debug('User theming enabled.');
+  //console.debug('User theming enabled.');
 
   let isDarkTheme;
   let currentThemeMode = getThemeMode();
-  console.debug(`User's theme variation: ${currentThemeMode}`);
+  //console.debug(`User's theme variation: ${currentThemeMode}`);
 
   switch (currentThemeMode) {
     case 0:
@@ -58,10 +58,10 @@ function initThemeVariation() {
   }
 
   if (isDarkTheme && !body.classList.contains('dark')) {
-    console.debug('Applying Wowchemy dark theme');
+    //console.debug('Applying Wowchemy dark theme');
     document.body.classList.add('dark');
   } else if (!isDarkTheme && body.classList.contains('dark')) {
-    console.debug('Applying Wowchemy light theme');
+    //console.debug('Applying Wowchemy light theme');
     document.body.classList.remove('dark');
   }
 
@@ -73,7 +73,7 @@ function initThemeVariation() {
 
 function changeThemeModeClick(newMode) {
   if (!canChangeTheme()) {
-    console.debug('Cannot change theme - user theming disabled.');
+    //console.debug('Cannot change theme - user theming disabled.');
     return;
   }
   let isDarkTheme;
@@ -81,12 +81,12 @@ function changeThemeModeClick(newMode) {
     case 0:
       localStorage.setItem('wcTheme', '0');
       isDarkTheme = false;
-      console.debug('User changed theme variation to Light.');
+      //console.debug('User changed theme variation to Light.');
       break;
     case 1:
       localStorage.setItem('wcTheme', '1');
       isDarkTheme = true;
-      console.debug('User changed theme variation to Dark.');
+      //console.debug('User changed theme variation to Dark.');
       break;
     default:
       localStorage.setItem('wcTheme', '2');
@@ -100,7 +100,7 @@ function changeThemeModeClick(newMode) {
         // Use the site's default theme variation based on `light` in the theme file.
         isDarkTheme = window.wc.isSiteThemeDark;
       }
-      console.debug('User changed theme variation to Auto.');
+      //console.debug('User changed theme variation to Auto.');
       break;
   }
   renderThemeVariation(isDarkTheme, newMode);
@@ -179,7 +179,7 @@ function renderThemeVariation(isDarkTheme, themeMode = 2, init = false) {
     }
     body.classList.remove('dark');
     if (codeHlEnabled) {
-      console.debug('Setting HLJS theme to light');
+      //console.debug('Setting HLJS theme to light');
       if (codeHlLight) {
         codeHlLight.disabled = false;
       }
@@ -188,7 +188,7 @@ function renderThemeVariation(isDarkTheme, themeMode = 2, init = false) {
       }
     }
     if (diagramEnabled) {
-      console.debug('Initializing Mermaid with light theme');
+      //console.debug('Initializing Mermaid with light theme');
       if (init) {
         /** @namespace window.mermaid **/
         window.mermaid.initialize({startOnLoad: true, theme: 'default', securityLevel: 'loose'});
@@ -205,7 +205,7 @@ function renderThemeVariation(isDarkTheme, themeMode = 2, init = false) {
     }
     body.classList.add('dark');
     if (codeHlEnabled) {
-      console.debug('Setting HLJS theme to dark');
+      //console.debug('Setting HLJS theme to dark');
       if (codeHlLight) {
         codeHlLight.disabled = true;
       }
@@ -214,7 +214,7 @@ function renderThemeVariation(isDarkTheme, themeMode = 2, init = false) {
       }
     }
     if (diagramEnabled) {
-      console.debug('Initializing Mermaid with dark theme');
+      //console.debug('Initializing Mermaid with dark theme');
       if (init) {
         /** @namespace window.mermaid **/
         window.mermaid.initialize({startOnLoad: true, theme: 'dark', securityLevel: 'loose'});
@@ -238,7 +238,7 @@ function onMediaQueryListEvent(event) {
     return;
   }
   const darkModeOn = event.matches;
-  console.debug(`OS dark mode preference changed to ${darkModeOn ? '🌒 on' : '☀️ off'}.`);
+  //console.debug(`OS dark mode preference changed to ${darkModeOn ? '🌒 on' : '☀️ off'}.`);
   let currentThemeVariation = getThemeMode();
   let isDarkTheme;
   if (currentThemeVariation === 2) {

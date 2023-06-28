@@ -17,7 +17,7 @@ import {
   onMediaQueryListEvent,
 } from './wowchemy-theming';
 
-console.debug(`Environment: ${hugoEnvironment}`);
+//console.debug(`Environment: ${hugoEnvironment}`);
 
 function removeQueryParamsFromUrl() {
   if (window.history.replaceState) {
@@ -157,7 +157,7 @@ $(window).on('load', function () {
   // Init Isotope Layout Engine for instances of the Portfolio widget.
   let isotopeCounter = 0;
   isotopeInstances.forEach(function (isotopeInstance, index) {
-    console.debug(`Loading Isotope instance ${index}`);
+    //console.debug(`Loading Isotope instance ${index}`);
 
     // Isotope instance
     let iso;
@@ -177,7 +177,7 @@ $(window).on('load', function () {
     if (defaultFilter !== null) {
       filterText = defaultFilter.textContent;
     }
-    console.debug(`Default Isotope filter: ${filterText}`);
+    //console.debug(`Default Isotope filter: ${filterText}`);
 
     // Init Isotope instance once its images have loaded.
     imagesLoaded(isotopeInstance, function () {
@@ -198,7 +198,7 @@ $(window).on('load', function () {
           let selector = button.getAttribute('data-filter');
 
           // Apply filter
-          console.debug(`Updating Isotope filter to ${selector}`);
+          //console.debug(`Updating Isotope filter to ${selector}`);
           iso.arrange({filter: selector});
 
           // Update active toolbar filter button
@@ -221,7 +221,7 @@ $(window).on('load', function () {
   function incrementIsotopeCounter() {
     isotopeCounter++;
     if (isotopeCounter === isotopeInstancesCount) {
-      console.debug(`All Portfolio Isotope instances loaded.`);
+      //console.debug(`All Portfolio Isotope instances loaded.`);
       // Once all Isotope instances and their images have loaded, scroll to hash (if set).
       // Prevents scrolling to the wrong location due to the dynamic height of Isotope instances.
       // Each Isotope instance height is affected by applying filters and loading images.
@@ -316,14 +316,14 @@ document.querySelectorAll('pre > code').forEach((codeblock) => {
   }
 
   copyBtn.addEventListener('click', () => {
-    console.debug('Code block copy click. Is secure context for Clipboard API? ' + window.isSecureContext);
+    //console.debug('Code block copy click. Is secure context for Clipboard API? ' + window.isSecureContext);
     if ('clipboard' in navigator) {
       // Note: Clipboard API requires HTTPS or localhost
       navigator.clipboard.writeText(codeblock.textContent);
       copiedNotification();
       return;
     } else {
-      console.debug('Falling back to legacy clipboard copy');
+      //console.debug('Falling back to legacy clipboard copy');
       const range = document.createRange();
       range.selectNodeContents(codeblock);
       const selection = window.getSelection();

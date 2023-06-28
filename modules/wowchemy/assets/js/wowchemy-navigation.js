@@ -6,7 +6,7 @@
 function getNavBarHeight() {
   let navbar = document.getElementById('navbar-main');
   let navbarHeight = navbar ? navbar.getBoundingClientRect().height : 0;
-  console.debug('Navbar height: ' + navbarHeight);
+  ////console.debug('Navbar height: ' + navbarHeight);
   return navbarHeight;
 }
 
@@ -40,7 +40,7 @@ function scrollToAnchor(target, duration = 0) {
       },
     );
   } else {
-    console.debug('Cannot scroll to target `#' + target + '`. ID not found!');
+    //console.debug('Cannot scroll to target `#' + target + '`. ID not found!');
   }
 }
 
@@ -75,7 +75,7 @@ $('#navbar-main li.nav-item a.nav-link, .js-scroll').on('click', function (event
     // Uncomment to debug.
     // let scrollTop = $(window).scrollTop();
     // let scrollDelta = (elementOffset - scrollTop);
-    // console.debug('Scroll Delta: ' + scrollDelta);
+    // //console.debug('Scroll Delta: ' + scrollDelta);
 
     $('html, body').animate(
       {

@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function () {
     navigator.clipboard
       .writeText(citation)
       .then(function () {
-        console.debug('Citation copied!');
+        //console.debug('Citation copied!');
       })
       .catch(function () {
         console.error('Citation copy failed!');
