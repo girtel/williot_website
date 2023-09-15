@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir ~/academic-cli
           cd ~/academic-cli
-          git clone https://github.com/ARNTM/hugo-academic-cli-girtel.git
+          git clone https://github.com/girtel/hugo-academic-cli-girtel.git
           cd hugo-academic-cli-girtel
           pip install -e .
       
