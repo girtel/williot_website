@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir ~/academic-cli
           cd ~/academic-cli
-          git clone https://github.com/girtel/hugo-academic-cli-girtel
+          git clone https://github.com/girtel/hugo-academic-cli-girtel.git
           cd hugo-academic-cli-girtel
           pip install -e .
       
@@ -65,5 +65,5 @@ jobs:
         run: |
           curl -X POST \
            -H 'Content-Type: application/json' \
-           -d '{"chat_id": "${{ secrets.TELEGRAM_TO }}", "text": "✅ WILLIOT has been updated", "disable_notification": false}' \
+           -d '{"chat_id": "${{ secrets.TELEGRAM_TO }}", "text": "✅ WILLIOT has been updated (williot.girtel.es)", "disable_notification": false}' \
            https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage
