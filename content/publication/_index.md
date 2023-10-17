@@ -11,9 +11,7 @@ banner:
 ---
 
 <div style="text-align: center">
-Papers and documents published in frames of the BREATHE project
-
-⚠️ Under construction...
+Papers and documents published in frames of the WILLIOT project
 </div>
 <br>
 
