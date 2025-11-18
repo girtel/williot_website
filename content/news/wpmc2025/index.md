@@ -1,0 +1,8 @@
+---
+title: Felipe Garcia-Vidal took part in 28th International Symposium on Wireless Personal Multimedia Communications
+date: 2025-11-11
+draft: false
+abstract: "Felipe Garcia-Vidal, Ph.D. Student, presented his latest work on multichannel operation for vehicular networks at the prestigious WPMC 2025 held in Sofia, Bulgaria from November 9-12. Garcia-Vidal presented his critical work, titled “Evaluation of Advanced Broadcast Multichannel Mechanisms for Vehicular Networks”, which introduces the performance analysis of two recommended multichannel operation mechanisms, offering a first-of-its-kind evaluation for advanced broadcast traffic. His presentation generated significant discussion and positive feedback from international experts, validating the research methodology. WPMC served as a vital platform for establishing strategic collaborations, essential for advancing global research in this field."
+---
+Felipe Garcia-Vidal, Ph.D. Student, presented his latest work on multichannel operation for vehicular networks at the prestigious WPMC 2025 held in Sofia, Bulgaria from November 9-12. Garcia-Vidal presented his critical work, titled “Evaluation of Advanced Broadcast Multichannel Mechanisms for Vehicular Networks”, which introduces the performance analysis of two recommended multichannel operation mechanisms, offering a first-of-its-kind evaluation for advanced broadcast traffic. His presentation generated significant discussion and positive feedback from international experts, validating the research methodology. WPMC served as a vital platform for establishing strategic collaborations, essential for advancing global research in this field.
+<!--more-->
